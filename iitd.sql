@@ -485,39 +485,6 @@ INSERT INTO `user_detail` (`id`, `email`, `first_name`, `last_name`, `age`, `gen
 (16, 'myrgrg@gmail.com', 'myr', 'grg', NULL, 'Male', NULL, NULL, NULL, 'grgmyr', 0, NULL, NULL, NULL, NULL, NULL, NULL, 'IIT DELHI', 0, '0000-00-00 00:00:00'),
 (17, 'anshulmlhtr@gmail.com', 'Anshul', 'Malhotra', NULL, 'Male', NULL, NULL, NULL, 'testing', 0, NULL, NULL, NULL, NULL, NULL, NULL, 'IIT DELHI', 0, '0000-00-00 00:00:00');
 
---Table Structure for the table post containing compliments, confessions and complaints
-
-
-CREATE TABLE IF NOT EXISTS `post` (
-  `post_id` int(25) NOT NULL AUTO_INCREMENT,
-  `post_likes` mediumint(50) DEFAULT NULL,
-  `post_type` ENUM('Complaint','Confession','Compliment'),
-  `date_posted` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
-  `posted_by` varchar(100) NOT NULL,
-  `post_approval` tinyint(1) NOT NULL DEFAULT '1',
-  `anonymous` tinyint(1) NOT NULL DEFAULT '0',
-  `post_content` varchar(500) NOT NULL,
-  `tags` varchar(500) NOT NULL,
-  PRIMARY KEY (`post_id`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
-
---Table Structure for the table containing comments on post(compliments, confessions and complaints)
-
-CREATE TABLE IF NOT EXISTS `comment_post` (
-  `comment_id` int(10) NOT NULL AUTO_INCREMENT,
-  `comment_text` text NOT NULL,
-  `posted_by` varchar(100) NOT NULL,
-  `post_id` int(25) NOT NULL,
-  PRIMARY KEY (`comment_id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=17 ;
-
---Table Structure for the table containing comments on post(compliments, confessions and complaints)
-
-CREATE TABLE IF NOT EXISTS `like_post` (
-  `post_id` int(25) NOT NULL,
-  `posted_by` varchar(100) NOT NULL
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=17 ;
-
 
 --
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
