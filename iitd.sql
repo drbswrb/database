@@ -61,7 +61,7 @@ CREATE TABLE `article` (
   `article_content` text NOT NULL,
   `article_name` varchar(100) NOT NULL,
   PRIMARY KEY (`article_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=19 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=21 DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -70,7 +70,7 @@ CREATE TABLE `article` (
 
 LOCK TABLES `article` WRITE;
 /*!40000 ALTER TABLE `article` DISABLE KEYS */;
-INSERT INTO `article` VALUES (1,86,'academics','course_detail','2013-06-04','Vishal',1,'This is just demo article content','Heading Article'),(2,17,'academics','course_detail','2013-06-02','Tarang',1,'Placements Stats:\r\nThis year the company that visited our campus for recruitment are Z.S associate, flipkart, Infosys, Direct I etc.\r\n\r\nThe highest package of \r\n30 lakhs was offered by Direct-I. The average package went upto 6 lakhs which is 1 lakh more than the previous year','Placement details'),(3,34,'academics','course_detail','2013-06-01','Tarang',1,'Scholarship for upcoming batch :\r\nWe are offering the scholarship to first 10 students on the basis of JEE main rank and which is equal to full tuition fees. Also, we are offering merit cum means scholarship to 5 students on the basis of merit.','Scholarship schemes'),(4,4,'academics','course_detail','2013-05-11','Mayur',1,'All of you will be aware that our annual college fest is coming soon. We need volunteers for the preparation of fest. Students who are willing to volunteer the college fest should contact any of the cultural committee member. Expecting a huge participation from 1st year guys! Thank you !','Need volunteers'),(5,1,'academics','course_detail','2013-05-04','Anshul',1,'Rules for internship:\r\n(1) Summer Internship for third yearites is compulsory.\r\n(2) The company where the student is going to do his internship should be verified by the placement cell.\r\n(3) The minimum period of internship is 2 years. ','Internship rules'),(6,0,'academics ','course_detail','2013-05-25','Nishant',1,'Data Structures:\r\nThis course will be taken by Prof. Rahul Muthu.\r\nIt is very useful and good course. It will be helpful during placement also. Also, prof Rahul Muthu is very friendly and does good grading :D.','Data Structure'),(7,7,'academics','course_detail','2013-02-22','Tarang',1,'Projects:\r\n1st year guys have to carry out project under proj Vijay Kumar in CT-111 course and 2nd years in EL-213 course. So, if any student wants any components related to their project, they can issue it from EHC club or from Lab. Feel free to contact any EHC members in case of any help. Thank you!','Project components'),(8,0,'academics','course_detail','2013-06-08','Vishal',1,'As per the new rankings announced by Times of India, our college ranks 7th all over India.\r\nIIT-Bombay topped the list of best engineering colleges in India.','Rankings'),(9,0,'academics','course_detail','2013-05-18','Mayur',1,'The active clubs of our college are:\r\n(1) Programming club\r\n(2) EHC club\r\n(3) Movie making club\r\n(4) Dance club\r\n(5) DTG club\r\n','Activity Club'),(10,0,'academics ','course_detail','2013-05-25','Tarang',1,'The previous papers for 1st year and 2nd year students for following course are uploaded.\r\n\r\n1st year:\r\n(1) Digital Logic Design\r\n(2) Object Oriented Programming\r\n(3) Discrete Mathematics\r\n\r\n2nd year:\r\n(1) Data Structures\r\n(2) Computer Organization\r\n(3) System software','Previous year papers'),(11,5,'Academics ','teacher_reviews','2013-08-10','Tarang Patel',0,'Hello!','Test'),(12,0,'','','0000-00-00','',0,'',''),(13,0,'Activities ','Boards and Clubs','2013-08-17','tarangrockr@yahoo.com',1,'ASD','TEST'),(14,0,'Academics ','projects','2013-08-17','tarangrockr@yahoo.com',1,'Hello','Test'),(15,0,'undefined','undefined','2013-08-17','Tarang',1,'Hello','Test'),(16,0,'Academics ','scholarships','2013-08-17','Tarang',1,'test\n','test'),(17,0,'','','2013-08-17','Tarang',1,'',''),(18,0,'Activities ','politics_and_pors','2013-08-17','Tarang',1,'aad','totla');
+INSERT INTO `article` VALUES (1,2,'academics','course_detail','2013-06-04','Vishal',1,'This is just demo article content','Heading Article'),(2,17,'academics','course_detail','2013-06-02','Tarang',1,'Placements Stats:\r\nThis year the company that visited our campus for recruitment are Z.S associate, flipkart, Infosys, Direct I etc.\r\n\r\nThe highest package of \r\n30 lakhs was offered by Direct-I. The average package went upto 6 lakhs which is 1 lakh more than the previous year','Placement details'),(3,34,'academics','course_detail','2013-06-01','Tarang',1,'Scholarship for upcoming batch :\r\nWe are offering the scholarship to first 10 students on the basis of JEE main rank and which is equal to full tuition fees. Also, we are offering merit cum means scholarship to 5 students on the basis of merit.','Scholarship schemes'),(4,4,'academics','course_detail','2013-05-11','Mayur',1,'All of you will be aware that our annual college fest is coming soon. We need volunteers for the preparation of fest. Students who are willing to volunteer the college fest should contact any of the cultural committee member. Expecting a huge participation from 1st year guys! Thank you !','Need volunteers'),(5,1,'academics','course_detail','2013-05-04','Anshul',1,'Rules for internship:\r\n(1) Summer Internship for third yearites is compulsory.\r\n(2) The company where the student is going to do his internship should be verified by the placement cell.\r\n(3) The minimum period of internship is 2 years. ','Internship rules'),(6,0,'academics ','course_detail','2013-05-25','Nishant',1,'Data Structures:\r\nThis course will be taken by Prof. Rahul Muthu.\r\nIt is very useful and good course. It will be helpful during placement also. Also, prof Rahul Muthu is very friendly and does good grading :D.','Data Structure'),(7,7,'academics','course_detail','2013-02-22','Tarang',1,'Projects:\r\n1st year guys have to carry out project under proj Vijay Kumar in CT-111 course and 2nd years in EL-213 course. So, if any student wants any components related to their project, they can issue it from EHC club or from Lab. Feel free to contact any EHC members in case of any help. Thank you!','Project components'),(8,0,'academics','course_detail','2013-06-08','Vishal',1,'As per the new rankings announced by Times of India, our college ranks 7th all over India.\r\nIIT-Bombay topped the list of best engineering colleges in India.','Rankings'),(9,0,'academics','course_detail','2013-05-18','Mayur',1,'The active clubs of our college are:\r\n(1) Programming club\r\n(2) EHC club\r\n(3) Movie making club\r\n(4) Dance club\r\n(5) DTG club\r\n','Activity Club'),(10,0,'academics ','course_detail','2013-05-25','Tarang',1,'The previous papers for 1st year and 2nd year students for following course are uploaded.\r\n\r\n1st year:\r\n(1) Digital Logic Design\r\n(2) Object Oriented Programming\r\n(3) Discrete Mathematics\r\n\r\n2nd year:\r\n(1) Data Structures\r\n(2) Computer Organization\r\n(3) System software','Previous year papers'),(11,5,'Academics ','teacher_reviews','2013-08-10','Tarang Patel',0,'Hello!','Test'),(13,0,'Activities ','Boards and Clubs','2013-08-17','tarangrockr@yahoo.com',1,'ASD','TEST'),(14,0,'Academics ','projects','2013-08-17','tarangrockr@yahoo.com',1,'Hello','Test'),(15,0,'undefined','undefined','2013-08-17','Tarang',1,'Hello','Test'),(16,0,'Academics ','scholarships','2013-08-17','Tarang',1,'test\n','test'),(17,0,'','','2013-08-17','Tarang',1,'',''),(18,0,'Activities ','politics_and_pors','2013-08-17','Tarang',1,'aad','totla'),(19,0,'Activities ','college_fests','2013-08-17','Tarang',1,'hello\n','test'),(20,0,'undefined','undefined','2013-08-17','Tarang',1,'hello\n','test');
 /*!40000 ALTER TABLE `article` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -170,8 +170,10 @@ CREATE TABLE `comment_article` (
   `comment_text` text NOT NULL,
   `posted_by` varchar(100) NOT NULL,
   `article_id` int(100) NOT NULL,
+  `likes` int(11) NOT NULL,
+  `posted_at` datetime NOT NULL,
   PRIMARY KEY (`comment_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=50 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=70 DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -180,7 +182,7 @@ CREATE TABLE `comment_article` (
 
 LOCK TABLES `comment_article` WRITE;
 /*!40000 ALTER TABLE `comment_article` DISABLE KEYS */;
-INSERT INTO `comment_article` VALUES (16,'Hii there','vishal.2947@gmail.com',1),(17,'dczcvsdv','tarangrockr@yahoo.com',1),(18,'edc','tarangrockr@yahoo.com',1),(19,'wsc','tarangrockr@yahoo.com',1),(20,'sd','tarangrockr@yahoo.com',1),(21,'awsd','tarangrockr@yahoo.com',1),(22,'awdf','tarangrockr@yahoo.com',1),(23,'as','tarangrockr@yahoo.com',1),(24,'asc','tarangrockr@yahoo.com',1),(25,'hello','tarangrockr@yahoo.com',1),(26,'asd','tarangrockr@yahoo.com',1),(27,'','tarangrockr@yahoo.com',1),(28,'dsc','tarangrockr@yahoo.com',1),(29,'dsc','tarangrockr@yahoo.com',1),(30,'dsc','tarangrockr@yahoo.com',1),(31,'sac','tarangrockr@yahoo.com',1),(32,'asd','tarangrockr@yahoo.com',1),(33,'wads','tarangrockr@yahoo.com',1),(34,'dasc','tarangrockr@yahoo.com',1),(35,'asdsadx','tarangrockr@yahoo.com',1),(36,'asc','tarangrockr@yahoo.com',1),(37,'wec','tarangrockr@yahoo.com',1),(38,'ewdcsDV','tarangrockr@yahoo.com',1),(39,'SD','tarangrockr@yahoo.com',2),(40,'ds','tarangrockr@yahoo.com',2),(41,'ASx','tarangrockr@yahoo.com',9),(42,'dfc','tarangrockr@yahoo.com',1),(43,'fg','tarangrockr@yahoo.com',1),(44,'fgd','tarangrockr@yahoo.com',1),(45,'nbv ','tarangrockr@yahoo.com',1),(46,'n ','tarangrockr@yahoo.com',1),(47,'a','tarangrockr@yahoo.com',1),(48,'','tarangrockr@yahoo.com',1),(49,'asdXC','tarangrockr@yahoo.com',1);
+INSERT INTO `comment_article` VALUES (16,'Hii there','vishal.2947@gmail.com',1,0,'0000-00-00 00:00:00'),(17,'dczcvsdv','tarangrockr@yahoo.com',1,0,'0000-00-00 00:00:00'),(18,'edc','tarangrockr@yahoo.com',1,0,'0000-00-00 00:00:00'),(19,'wsc','tarangrockr@yahoo.com',1,0,'0000-00-00 00:00:00'),(20,'sd','tarangrockr@yahoo.com',1,0,'0000-00-00 00:00:00'),(21,'awsd','tarangrockr@yahoo.com',1,0,'0000-00-00 00:00:00'),(22,'awdf','tarangrockr@yahoo.com',1,0,'0000-00-00 00:00:00'),(23,'as','tarangrockr@yahoo.com',1,0,'0000-00-00 00:00:00'),(24,'asc','tarangrockr@yahoo.com',1,0,'0000-00-00 00:00:00'),(25,'hello','tarangrockr@yahoo.com',1,0,'0000-00-00 00:00:00'),(26,'asd','tarangrockr@yahoo.com',1,0,'0000-00-00 00:00:00'),(27,'','tarangrockr@yahoo.com',1,0,'0000-00-00 00:00:00'),(28,'dsc','tarangrockr@yahoo.com',1,0,'0000-00-00 00:00:00'),(29,'dsc','tarangrockr@yahoo.com',1,0,'0000-00-00 00:00:00'),(30,'dsc','tarangrockr@yahoo.com',1,0,'0000-00-00 00:00:00'),(31,'sac','tarangrockr@yahoo.com',1,0,'0000-00-00 00:00:00'),(32,'asd','tarangrockr@yahoo.com',1,0,'0000-00-00 00:00:00'),(33,'wads','tarangrockr@yahoo.com',1,0,'0000-00-00 00:00:00'),(34,'dasc','tarangrockr@yahoo.com',1,0,'0000-00-00 00:00:00'),(35,'asdsadx','tarangrockr@yahoo.com',1,0,'0000-00-00 00:00:00'),(36,'asc','tarangrockr@yahoo.com',1,0,'0000-00-00 00:00:00'),(37,'wec','tarangrockr@yahoo.com',1,0,'0000-00-00 00:00:00'),(38,'ewdcsDV','tarangrockr@yahoo.com',1,0,'0000-00-00 00:00:00'),(39,'SD','tarangrockr@yahoo.com',2,0,'0000-00-00 00:00:00'),(40,'ds','tarangrockr@yahoo.com',2,0,'0000-00-00 00:00:00'),(41,'ASx','tarangrockr@yahoo.com',9,0,'0000-00-00 00:00:00'),(42,'dfc','tarangrockr@yahoo.com',1,0,'0000-00-00 00:00:00'),(43,'fg','tarangrockr@yahoo.com',1,0,'0000-00-00 00:00:00'),(44,'fgd','tarangrockr@yahoo.com',1,0,'0000-00-00 00:00:00'),(45,'nbv ','tarangrockr@yahoo.com',1,0,'0000-00-00 00:00:00'),(46,'n ','tarangrockr@yahoo.com',1,0,'0000-00-00 00:00:00'),(47,'a','tarangrockr@yahoo.com',1,0,'0000-00-00 00:00:00'),(48,'','tarangrockr@yahoo.com',1,3,'0000-00-00 00:00:00'),(49,'asdXC','tarangrockr@yahoo.com',1,44,'0000-00-00 00:00:00'),(50,'hello','tarangrockr@yahoo.com',1,0,'2013-08-23 21:19:07'),(51,'hi','tarangrockr@yahoo.com',1,0,'2013-08-23 21:19:21'),(52,'szdv','tarangrockr@yahoo.com',1,0,'2013-08-23 21:20:40'),(53,'asdfc','tarangrockr@yahoo.com',1,0,'2013-08-23 21:21:30'),(54,'asdklasd','tarangrockr@yahoo.com',1,0,'2013-08-23 21:21:46'),(55,'hi','tarangrockr@yahoo.com',1,0,'2013-08-23 21:22:03'),(56,'sdv','tarangrockr@yahoo.com',1,0,'2013-08-23 21:22:41'),(57,'sdv','tarangrockr@yahoo.com',1,0,'2013-08-23 21:23:57'),(58,'asdzc','tarangrockr@yahoo.com',1,0,'2013-08-23 21:25:17'),(59,'dsv','tarangrockr@yahoo.com',1,0,'2013-08-23 21:25:59'),(60,'','tarangrockr@yahoo.com',1,0,'2013-08-23 21:25:59'),(61,'davc','tarangrockr@yahoo.com',1,0,'2013-08-23 21:26:03'),(62,'asdzcv','tarangrockr@yahoo.com',1,1,'2013-08-23 21:26:06'),(63,'dsz','tarangrockr@yahoo.com',1,0,'2013-08-23 21:26:23'),(64,'azd','tarangrockr@yahoo.com',1,0,'2013-08-23 21:26:36'),(65,'sadz','tarangrockr@yahoo.com',1,0,'2013-08-23 21:27:14'),(66,'dszv','tarangrockr@yahoo.com',1,0,'2013-08-23 21:29:18'),(67,'laksasd','tarangrockr@yahoo.com',1,1,'2013-08-23 21:29:24'),(68,'aSD','tarangrockr@yahoo.com',1,0,'2013-08-23 21:30:42'),(69,'hello','tarangrockr@yahoo.com',16,1,'2013-08-28 14:56:23');
 /*!40000 ALTER TABLE `comment_article` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -239,6 +241,30 @@ LOCK TABLES `fb_internal` WRITE;
 /*!40000 ALTER TABLE `fb_internal` DISABLE KEYS */;
 INSERT INTO `fb_internal` VALUES ('Tarang Patel','Tarang','Patel','http://www.facebook.com/tarang.patel.184','','New English School','DA-IICT','male','English,Gujarati,Hindi',19,'tarangrockr@yahoo.com');
 /*!40000 ALTER TABLE `fb_internal` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `follow_topic_list`
+--
+
+DROP TABLE IF EXISTS `follow_topic_list`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `follow_topic_list` (
+  `id` int(11) NOT NULL,
+  `topic` varchar(100) NOT NULL,
+  `user_id` varchar(100) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `follow_topic_list`
+--
+
+LOCK TABLES `follow_topic_list` WRITE;
+/*!40000 ALTER TABLE `follow_topic_list` DISABLE KEYS */;
+/*!40000 ALTER TABLE `follow_topic_list` ENABLE KEYS */;
 UNLOCK TABLES;
 
 --
@@ -394,6 +420,29 @@ INSERT INTO `like_article` VALUES (20,'test123@gmail.com'),(20,'test123@gmail.co
 UNLOCK TABLES;
 
 --
+-- Table structure for table `like_comment`
+--
+
+DROP TABLE IF EXISTS `like_comment`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `like_comment` (
+  `comment_id` int(11) NOT NULL,
+  `username` varchar(100) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `like_comment`
+--
+
+LOCK TABLES `like_comment` WRITE;
+/*!40000 ALTER TABLE `like_comment` DISABLE KEYS */;
+INSERT INTO `like_comment` VALUES (66,'tarangrockr@yahoo.com');
+/*!40000 ALTER TABLE `like_comment` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
 -- Table structure for table `member_group_notification`
 --
 
@@ -488,7 +537,7 @@ CREATE TABLE `questions` (
   `number_of_likes` int(5) NOT NULL,
   `posted_date` datetime NOT NULL,
   PRIMARY KEY (`question_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -497,7 +546,7 @@ CREATE TABLE `questions` (
 
 LOCK TABLES `questions` WRITE;
 /*!40000 ALTER TABLE `questions` DISABLE KEYS */;
-INSERT INTO `questions` VALUES (1,'academics','course_detail','Can someone please give me the previous year DSA paper?','tarangrockr@gmail.com','Tarang',2,'2013-07-03 00:00:00'),(2,'academics','course_detail','How much package is offered by Direct-I?','vishal.2947@gmail.com','Vishal',3,'2013-05-15 00:00:00'),(3,'academics','course_detail','Which are the core courses in 5th semester?','tarangrockr@gmail.com','Tarang',1,'2013-06-08 00:00:00'),(4,'academics','course_detail','When will be our annual fest this year?','vishal.2947@gmail.com','Vishal',5,'2013-06-23 00:00:00'),(5,'academics','course_detail','Which professor will take Algorithm course?','tarangrockr@gmail.com','Tarang',9,'2013-06-03 00:00:00');
+INSERT INTO `questions` VALUES (1,'academics','course_detail','Can someone please give me the previous year DSA paper?','tarangrockr@gmail.com','Tarang',2,'2013-07-03 00:00:00'),(2,'academics','course_detail','How much package is offered by Direct-I?','vishal.2947@gmail.com','Vishal',3,'2013-05-15 00:00:00'),(3,'academics','course_detail','Which are the core courses in 5th semester?','tarangrockr@gmail.com','Tarang',1,'2013-06-08 00:00:00'),(4,'academics','course_detail','When will be our annual fest this year?','vishal.2947@gmail.com','Vishal',5,'2013-06-23 00:00:00'),(5,'academics','course_detail','Which professor will take Algorithm course?','tarangrockr@gmail.com','Tarang',9,'2013-06-03 00:00:00'),(6,'','','hello?','tarangrockr@yahoo.com','Tarang',0,'2013-08-17 23:17:58'),(7,'','','asd','tarangrockr@yahoo.com','Tarang',0,'2013-08-17 23:19:03'),(8,'Activities ','boards_and_clubs','test que\n','tarangrockr@yahoo.com','Tarang',0,'2013-08-17 23:19:58');
 /*!40000 ALTER TABLE `questions` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -611,4 +660,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2013-08-17 18:07:23
+-- Dump completed on 2013-09-14 11:25:26
